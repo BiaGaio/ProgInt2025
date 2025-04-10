@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #27445D;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+#secao1 {
+    background: #f8f2dd; /* bege claro */
+}
+
+#secao2 {
+    background: #e7e0cc; /* bege suave */
+}
+
+#secao3 {
+    background: #d4d1b9; /* bege médio */
+}
+
+#secao4 {
+    background: #ccc4b0; /* bege escuro */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background:#27445D ;
+    color: white;
+    position: relative;
+}
