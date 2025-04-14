@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Organização de Estudos</title>
+    <title>Organização de Estudos</title>
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="landing.css">
 </head>
 <body>
     <header>
+        <h1>Organização de Estudos</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Página Inicial</a></li>
@@ -20,71 +21,76 @@
         </nav>
     </header>
 
-    <section id="secao1">
-        <h1>Dashboard</h1>
-        <p>Bem-vindo ao seu painel de controle. Aqui você pode acompanhar o progresso dos seus estudos.</p>
-        
-        <h2>Progresso Geral</h2>
-        <ul>
-            <li>Matérias completadas: 5</li>
-            <li>Metas de estudo: 3/5 alcançadas</li>
-            <li>Próximo exame: Matemática - 15 de Maio</li>
-        </ul>
-
-        <h2>Atividades Recentes</h2>
-        <ul>
-            <li><b>23/04/2025:</b> Estudo de Química - 2 horas</li>
-            <li><b>22/04/2025:</b> Revisão de História - 1 hora</li>
-        </ul>
-    </section>
-
-    <section id="secao2">
-        <h1>Minhas Matérias</h1>
-        <p>Organize e acompanhe o progresso das suas matérias de estudo.</p>
-
-        <h2>Lista de Matérias</h2>
-        <ul>
-            <li><b>Matemática</b> - Progresso: 80%</li>
-            <li><b>Física</b> - Progresso: 65%</li>
-            <li><b>História</b> - Progresso: 90%</li>
-            <li><b>Química</b> - Progresso: 70%</li>
-        </ul>
-    </section>
-
-    <section id="secao3">
-        <h1>Calendário de Estudos</h1>
-        <p>Organize seus exames, tarefas e metas de estudo no calendário.</p>
-
-        <h2>Próximos Eventos</h2>
-        <ul>
-            <li><b>15/05/2025:</b> Exame de Matemática</li>
-            <li><b>22/05/2025:</b> Exame de Física</li>
-            <li><b>30/05/2025:</b> Trabalho de História</li>
-        </ul>
+    <main>
+        <section id="secao1">
+            <h1>Dashboard</h1>
+            <div class="card">
+                <h2>Progresso Geral</h2>
+                <ul>
+                    <li>Matérias completadas: 5</li>
+                    <li>Metas de estudo: 3/5 alcançadas</li>
+                    <li>Próximo exame: Matemática - 15 de Maio</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>Atividades Recentes</h2>
+                <ul>
+                    <li><strong>23/04/2025:</strong> Estudo de Química - 2 horas</li>
+                    <li><strong>22/04/2025:</strong> Revisão de História - 1 hora</li>
+                </ul>
+            </div>
         </section>
 
-    <section id="secao4">
-        <h1>Notas</h1>
-        <p>Acompanhe o seu desempenho ao longo do tempo.</p>
+        <section id="secao2">
+            <h1>Minhas Matérias</h1>
+            <div class="card">
+                <h2>Lista de Matérias</h2>
+                <ul>
+                    <li><strong>Matemática</strong> - Progresso: 80%</li>
+                    <li><strong>Física</strong> - Progresso: 65%</li>
+                    <li><strong>História</strong> - Progresso: 90%</li>
+                    <li><strong>Química</strong> - Progresso: 70%</li>
+                </ul>
+            </div>
+        </section>
 
-        <h2>Notas Recentes</h2>
-        <ul>
-            <li><b>Matemática:</b> 85%</li>
-            <li><b>Física:</b> 90%</li>
-            <li><b>História:</b> 92%</li>
-            <li><b>Química:</b> 78%</li>
-        </ul>
-    </section>
+        <section id="secao3">
+            <h1>Calendário de Estudos</h1>
+            <div class="card">
+                <h2>Próximos Eventos</h2>
+                <ul>
+                    <li><strong>15/05/2025:</strong> Exame de Matemática</li>
+                    <li><strong>22/05/2025:</strong> Exame de Física</li>
+                    <li><strong>30/05/2025:</strong> Trabalho de História</li>
+                </ul>
+            </div>
+        </section>
 
+        <section id="secao4">
+            <h1>Notas</h1>
+            <div class="card">
+                <h2>Notas Recentes</h2>
+                <ul>
+                    <li><strong>Matemática:</strong> 85%</li>
+                    <li><strong>Física:</strong> 90%</li>
+                    <li><strong>História:</strong> 92%</li>
+                    <li><strong>Química:</strong> 78%</li>
+                </ul>
+            </div>
+        </section>
+    </main>
     <footer>
-        <i data-feather="instagram"></i>
-        <i data-feather="github"></i>
-        <i data-feather="facebook"></i>
-        <p>&copy; 2025 Sistema de Organização de Estudos. Todos os direitos reservados.</p>
+        <div class="links-footer">
+            <a href="https://instagram.com" target="_blank" class="social-link"><i data-feather="instagram"></i></a>
+            <a href="https://github.com" target="_blank" class="social-link"><i data-feather="github"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="social-link"><i data-feather="linkedin"></i></a>
+            <p>&copy; 2025 Sistema de Organização de Estudos. Todos os direitos reservados.</p>
+        </div>
     </footer>
-
     <script>
         feather.replace();
     </script>
+   
 </body>
 </html>
