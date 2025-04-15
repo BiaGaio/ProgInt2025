@@ -41,14 +41,14 @@ nav a:hover {
 }
 
 main {
-  padding: 100px 0 20px; /* Adicionado padding-top para compensar o header */
+  padding: 100px 0 20px; 
 }
 
 section {
   padding: 1rem;
   max-width: 1000px;
   margin: 0 auto 2rem auto;
-  scroll-margin-top: 100px; /* Adicionado para compensar o header ao navegar por âncoras */
+  scroll-margin-top: 100px; 
 }
 
 h1 {
